@@ -1,0 +1,73 @@
+# 🛍️ E-commerce Cloud Architecture | Projeto DIO
+
+Este projeto foi desenvolvido como parte do curso **Microsoft Application Platform** da DIO. O objetivo foi projetar uma arquitetura escalável, segura e eficiente para um sistema de e-commerce baseado em soluções de nuvem.
+
+## 🚧 Descrição do Desafio
+
+Criar uma solução completa de arquitetura para armazenar e gerenciar dados de um e-commerce na nuvem, utilizando os conceitos de cloud computing apresentados no curso.
+
+---
+
+## 💡 Arquitetura da Solução
+
+### 🔹 Backend
+- Node.js + Express / NestJS
+- API REST + Autenticação JWT
+
+### 🔹 Frontend
+- React com TailwindCSS
+- Consumindo a API com Axios
+
+### 🔹 Banco de Dados
+- Relacional: PostgreSQL (Azure Database ou AWS RDS)
+- Cache: Redis (para performance)
+- Armazenamento: Blob Storage (Azure) ou S3 (AWS)
+
+### 🔹 Serviços de Nuvem
+- Azure App Services / AWS ECS (hospedagem)
+- Azure Blob Storage / AWS S3 (imagens, arquivos)
+- Azure Application Gateway / AWS API Gateway
+- Monitoramento com Azure Monitor / CloudWatch
+
+---
+
+## 🔐 Segurança
+- HTTPS obrigatório
+- Autenticação via JWT + RBAC
+- Criptografia de dados sensíveis
+
+---
+
+## 📈 Escalabilidade e Performance
+- Balanceamento de carga
+- Escalabilidade horizontal com Kubernetes
+- Cache de produtos populares com Redis
+- CDN para servir imagens
+
+---
+
+## 📸 Prints do Projeto
+
+> Adicione aqui imagens da arquitetura, do sistema funcionando (caso tenha feito frontend), ou prints de configurações no Azure.
+
+---
+
+## ✨ Aprendizados
+
+- Compreensão profunda sobre componentes cloud
+- Prática de arquitetura em camadas
+- Conceitos de segurança, escalabilidade e eficiência
+- Uso de ferramentas como Git, GitHub e CI/CD
+
+---
+
+## 🔗 Links Importantes
+
+- Repositório original DIO: [Microsoft_Application_Platform](https://github.com/digitalinnovationone/Microsoft_Application_Platform)
+
+---
+
+## 👨‍💻 Autor
+
+Feito com 💙 por **Lucas Gattelli**  
+[GitHub](https://github.com/lucashsouza2012)
